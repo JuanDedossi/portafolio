@@ -4,6 +4,9 @@
 }
 
 @media (max-width: 768px) {
+    .img{
+        height: 50%;
+    }
    .paper{
        border-radius: 10px !important;
    }

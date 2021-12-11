@@ -29,7 +29,7 @@ export default function ResponsiveGrid() {
             <Grid item xs={1} sm={2} md={2} key={index} className='grid'>
               <div className={style.Grid}>
               <Icon/>
-              <Typography variant="h6" component="h2">
+              <Typography variant="h6" component="h2" className={style.text}>
                 {icon.slice(2).includes('Javascript') ? 'JavaScript' : icon.slice(2).includes('Github') ? 'Github' : icon.slice(2).includes('Material') ? 'Material UI':icon.slice(2)}
                 </Typography>
               </div>

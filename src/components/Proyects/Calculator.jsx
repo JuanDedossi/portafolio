@@ -24,7 +24,7 @@ export default function Calculator({ open }) {
       }}
       className={style.paper}
     >
-        <div style={{height:'80%'}}>
+        <div style={{height:'80%',display:'flex',justifyContent:'center',alignItems:'center'}}>
       <img src={Calc2} alt="Calculator" className={style.img}/>
         </div>
       <Typography variant="h6" sx={{ color: "#E7EFFF" }}>
