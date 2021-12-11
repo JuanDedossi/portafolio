@@ -2,10 +2,7 @@ import { IconButton, Paper, Typography } from "@mui/material";
 import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import WebIcon from "@mui/icons-material/Web";
-import { Carousel } from "react-responsive-carousel";
-import Calc from "./Calc_purple.png";
 import Calc2 from "./Calc_blue.png";
-import Calc3 from "./Calc_white.png";
 
 export default function Calculator({ open }) {
   const openLink = (link) => {

@@ -1,13 +1,8 @@
 import * as React from "react";
-import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
-import ButtonBase from "@mui/material/ButtonBase";
 import Typography from "@mui/material/Typography";
-import { Grid } from "@mui/material";
 import Huellitas from "./huellitas_home.png";
 import Backdrop from "@mui/material/Backdrop";
-import CircularProgress from "@mui/material/CircularProgress";
-import Button from "@mui/material/Button";
 import Huellitasinfo from "./Huellitas";
 import style from "./Proyects.module.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
