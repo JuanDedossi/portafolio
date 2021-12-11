@@ -1,0 +1,10 @@
+.paper{
+    width: 70vw;
+    max-height: 90vh;
+}
+
+@media (max-width: 800px) {
+    .typo{
+        font-size: 1rem;
+    }
+}

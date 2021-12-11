@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/NavBar/Navbar2';
+import {Hero} from './components/Hero/Hero';
+import ResponsiveGrid from './components/Technologies/Technologies';
+import { ThemeProvider} from '@mui/material/styles';
+import Theme from './Theme.js'
+import Sobre from './components/Sobre/sobre';
+import Proyects from './components/Proyects/Proyects';
+import Contact from './components/Contact/Contact';
+
 
 function App() {
   return (
+    <ThemeProvider theme={Theme}>
+    <div>
+      <Navbar />
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hero />
+      <Sobre /> 
+      <ResponsiveGrid />
+      <Proyects />
+      <Contact />
     </div>
+    </div>
+    </ThemeProvider>
   );
 }
 

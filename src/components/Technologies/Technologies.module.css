@@ -1,0 +1,15 @@
+.Grid:hover{
+transform: scale(1.2);
+user-select: none;
+}
+.taka{
+    font-family: 'Source Code Pro', monospace !important;
+    color: #E7EFFF;
+    user-select: none;
+}
+.icons{
+    padding: 5vw;
+}
+.Grid{
+    color: #E7EFFF;
+}

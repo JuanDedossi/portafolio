@@ -1,0 +1,17 @@
+.div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+    align-items: center;
+    height: 100vh;
+    background-color: #374366;
+}
+.button{
+    position:fixed !important;
+    left: 20px !important;
+    top: 10px !important;
+    background-color: #374366;
+}
+.taka{
+    color:#E7EFFF;
+}

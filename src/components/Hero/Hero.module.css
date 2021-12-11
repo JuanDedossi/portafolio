@@ -1,0 +1,37 @@
+.taka{
+    font-family: 'Source Code Pro', monospace !important;
+}
+.Box{
+    width: 100%;
+    max-width: 100vw;
+    height:100vh;
+    display:Flex;
+    justify-content:center;
+    align-items:center;
+    color: #E7EFFF;
+}
+.textra{
+    border-right: 3px solid black;
+    animation: typist 9s steps(21) infinite, caret 0.7s infinite step-end;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: clamp(26px, 3vw, 2.0em);
+    font-weight: 600;
+}
+
+@keyframes caret{
+    0%, 100%{border-color: transparent;}
+    50%{border-color: black;}
+}
+@keyframes typist{
+    0%{width: 0ch;}
+    30%{width: 21ch;}
+    80%{width: 21ch;}
+    90%{width: 0ch;}
+    100%{width: 0ch;}
+}
+@media (max-width: 800px) {
+    .Box{
+        flex-direction: column;
+    }
+}

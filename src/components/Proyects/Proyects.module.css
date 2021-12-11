@@ -1,0 +1,17 @@
+.taka{
+    font-family: 'Source Code Pro', monospace !important;
+    color: #E7EFFF;
+    user-select: none;
+}
+.p{
+    cursor: pointer;
+}
+.caru{
+    width: 70%;
+}
+
+@media (max-width: 800px) {
+    .caru{
+        width: 90%;
+    }
+}
