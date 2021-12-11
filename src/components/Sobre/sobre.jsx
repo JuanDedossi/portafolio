@@ -16,7 +16,7 @@ export default function Sobre() {
             <br/>
             Me encanta desafiarme, aprender nuevas tecnologías, me gusta trabajar en equipo y aprender de los demás.
             <br/>
-            Soy Full Stack Developer especializado en React para el front y NodeJS para el back.
+            Soy Full Stack Web Developer especializado en React para el front y NodeJS para el back.
             <br/>
             No me rindo con facilidad y siempre consigo lo que me propongo.
             </Typography>

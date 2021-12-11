@@ -58,7 +58,7 @@ export default function TemporaryDrawer() {
       <Stack spacing={2} direction="column">
       <Button onClick={() => scroller.scrollTo('hero', scrollType)} variant="contained">Bienvenida</Button>
       <Button onClick={() => scroller.scrollTo('sobre', scrollType)} variant="contained">Sobre Mi</Button>
-      <Button onClick={() => scroller.scrollTo('tecno', scrollType)} variant="contained">Tecnologias</Button>
+      <Button onClick={() => scroller.scrollTo('tecno', scrollType)} variant="contained">Tecnologías</Button>
       <Button onClick={() => scroller.scrollTo('proyec', scrollType)} variant="contained">Proyectos</Button>
       <Button onClick={() => scroller.scrollTo('contact', scrollType)} variant="contained">Contacto</Button>
     </Stack>
