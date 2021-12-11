@@ -3,6 +3,7 @@ import React from "react";
 import ReactPlayer from "react-player";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import WebIcon from "@mui/icons-material/Web";
+import style from './Huellitas.module.css';
 
 export default function Huellitas({ open }) {
   const [play, setPlay] = React.useState(false);
@@ -25,6 +26,7 @@ export default function Huellitas({ open }) {
         flexDirection: "column",
         backgroundColor: "#374366",
       }}
+      className={style.paper}
     >
       <ReactPlayer
         url="https://www.youtube.com/watch?v=VXivMZ0iOYU"
@@ -33,7 +35,7 @@ export default function Huellitas({ open }) {
         controls
         playing={play}
       />
-      <Typography variant="h6" sx={{ color: "#E7EFFF" }}>
+      <Typography variant="h6" sx={{ color: "#E7EFFF" }} className={style.text}>
         Web App estilo red social donde se pueden publicar animales en adopción,
         perdidos o encontrados, con el objetivo de unificar los anuncios de
         mascotas en un mismo lugar.

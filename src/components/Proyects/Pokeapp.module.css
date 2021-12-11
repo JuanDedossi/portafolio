@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+    .text {
+        font-size: 1rem !important;
+    }
+    .paper{
+        border-radius: 10px !important;
+    }
+  }

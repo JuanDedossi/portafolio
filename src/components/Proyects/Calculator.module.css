@@ -1,0 +1,10 @@
+.img{
+    width: 90%;
+    height: 90%;
+}
+
+@media (max-width: 768px) {
+   .paper{
+       border-radius: 10px !important;
+   }
+}

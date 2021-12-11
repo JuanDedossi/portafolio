@@ -8,7 +8,7 @@ export default function Sobre() {
     return(
         <div name='sobre' style={{height:'100vh',width:'100%',display:'flex',justifyContent:'center',alignItems:'center'}}>
         <Paper variant="elevation" square={false} elevation={8} className={style.paper}>
-            <img style={{height:'30vh',userSelect:'none'}} src={coding} alt='conding'/>
+            <img className={style.img} src={coding} alt='conding'/>
             <Typography sx={{userSelect:'none'}} variant='h6' className={style.typo}>
             Soy Juan Dedossi un amante de la tecnología y apasionado por la programación. 
             <br/>

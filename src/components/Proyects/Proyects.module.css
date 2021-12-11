@@ -5,6 +5,7 @@
 }
 .p{
     cursor: pointer;
+    font-size: large !important;
 }
 .caru{
     width: 70%;

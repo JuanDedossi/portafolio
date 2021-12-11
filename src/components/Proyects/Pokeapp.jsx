@@ -2,6 +2,7 @@ import { IconButton, Paper, Typography } from "@mui/material";
 import React from "react";
 import ReactPlayer from "react-player";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import style from "./Pokeapp.module.css";
 
 export default function Pokeapp({ open }) {
   const [play, setPlay] = React.useState(false);
@@ -25,6 +26,7 @@ export default function Pokeapp({ open }) {
         flexDirection: "column",
         backgroundColor: "#374366",
       }}
+      className={style.paper}
     >
       <ReactPlayer
         url="https://youtu.be/M972vdnah3Y"
@@ -33,7 +35,7 @@ export default function Pokeapp({ open }) {
         controls
         playing={play}
       />
-      <Typography variant="h6" sx={{ color: "#E7EFFF" }}>
+      <Typography variant="h6" sx={{ color: "#E7EFFF" }} className={style.text}>
         Desarrollo de una SPA (single page aplication) con ReactJs, Redux y CSS
         para el front-end y la utilización de NodeJs en conjunto con sequalize y
         express para el back-end. Para la base de datos utilice Postgresql

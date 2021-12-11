@@ -63,25 +63,19 @@ export default function Proyects() {
           <div>
             <img src={Huellitas} alt="huellitas" />
             <p onClick={handleToggle} className={`legend ${style.p}`}>
-              <h3>
-                Huellitas <br /> Click para mas info
-              </h3>
+                Huellitas <br /> Click para mas informacion
             </p>
           </div>
           <div>
             <img src={poke} alt="pokeapp" />
             <p onClick={handleToggle2} className={`legend ${style.p}`}>
-              <h3>
                 Pokeapp <br /> Click para mas info
-              </h3>
             </p>
           </div>
           <div>
             <img src={Calc} alt="Calculator" />
             <p onClick={handleToggle3} className={`legend ${style.p}`}>
-              <h3>
                 Calculator <br /> Click para mas info
-              </h3>
             </p>
           </div>
         </Carousel>

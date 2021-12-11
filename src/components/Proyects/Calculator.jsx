@@ -3,6 +3,7 @@ import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import WebIcon from "@mui/icons-material/Web";
 import Calc2 from "./Calc_blue.png";
+import style from './Calculator.module.css';
 
 export default function Calculator({ open }) {
   const openLink = (link) => {
@@ -21,9 +22,10 @@ export default function Calculator({ open }) {
         flexDirection: "column",
         backgroundColor: "#374366",
       }}
+      className={style.paper}
     >
         <div style={{height:'80%'}}>
-      <img src={Calc2} alt="Calculator" />
+      <img src={Calc2} alt="Calculator" className={style.img}/>
         </div>
       <Typography variant="h6" sx={{ color: "#E7EFFF" }}>
         Calculadora realizada con react y js, con una vuelta de tuerca para

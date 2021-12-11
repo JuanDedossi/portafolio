@@ -2,9 +2,15 @@
     width: 70vw;
     max-height: 90vh;
 }
-
+.img{
+    height:30vh;
+    user-select:none;
+}
 @media (max-width: 800px) {
     .typo{
-        font-size: 1rem;
+        font-size: 0.9rem !important;
+    }
+    .img{
+        width: 100%;
     }
 }
