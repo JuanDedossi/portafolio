@@ -30,7 +30,7 @@ export default function Huellitas({ open }) {
     >
       <ReactPlayer
         url="https://www.youtube.com/watch?v=VXivMZ0iOYU"
-        width="60%"
+        width="70vw"
         height="60%"
         controls
         playing={play}
