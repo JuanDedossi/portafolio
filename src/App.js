@@ -31,7 +31,7 @@ function App() {
             sx={{ position: "fixed", top: "10px", right: "20px", zIndex: "1" }}
             onClick={handleLang}
           >
-            <img style={{ width: "35px" }} src={Arg} alt="arg" />
+            <img style={{ width: "35px" }} src={Usa} alt="arg" />
           </Button>
           <Navbar />
           <div className="App">
@@ -48,7 +48,7 @@ function App() {
             sx={{ position: "fixed", top: "10px", right: "20px", zIndex: "1" }}
             onClick={handleLang}
           >
-            <img style={{ width: "35px" }} src={Usa} alt="usa" />
+            <img style={{ width: "35px" }} src={Arg} alt="usa" />
           </Button>
           <EngNavbar />
           <div className="App">
