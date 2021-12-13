@@ -20,7 +20,7 @@ export function Hero() {
       />
       <div>
         <Typography variant='h3'>
-          Bienvenido a mi portafolio
+          Bienvenido a mi portfolio
           </Typography>
         <Typography className={style.taka} variant="h4" ml="20px">
           Soy Juan Guillermo Dedossi 👋🏻

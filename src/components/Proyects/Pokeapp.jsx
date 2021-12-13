@@ -30,7 +30,7 @@ export default function Pokeapp({ open }) {
     >
       <ReactPlayer
         url="https://youtu.be/M972vdnah3Y"
-        width="60%"
+        width="70vw"
         height="60%"
         controls
         playing={play}

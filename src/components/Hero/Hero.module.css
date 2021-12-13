@@ -11,7 +11,7 @@
     color: #E7EFFF;
 }
 .textra{
-    border-right: 3px solid black;
+    border-right: 3px solid white;
     animation: typist 9s steps(21) infinite, caret 0.7s infinite step-end;
     white-space: nowrap;
     overflow: hidden;
@@ -21,7 +21,7 @@
 
 @keyframes caret{
     0%, 100%{border-color: transparent;}
-    50%{border-color: black;}
+    50%{border-color: white;}
 }
 @keyframes typist{
     0%{width: 0ch;}
