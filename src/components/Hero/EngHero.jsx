@@ -5,7 +5,7 @@ import Typography from "@mui/material/Typography";
 import style from "./Hero.module.css";
 import Textra from "react-textra";
 
-export function Hero() {
+export default function Hero() {
   const data = [
     "Full Stack Developer",
     "Frontend Developer",

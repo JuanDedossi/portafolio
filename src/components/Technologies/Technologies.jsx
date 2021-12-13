@@ -8,14 +8,14 @@ import style from './Technologies.module.css';
 import { Typography } from '@mui/material';
 
 
-export default function ResponsiveGrid() {
+export default function ResponsiveGrid({lang}) {
     var Icon;
     const icons =['DiReact','DiJavascript1','DiCss3','DiHtml5','DiBootstrap','DiGit','DiGithubBadge','DiHeroku','DiMongodb','DiNodejs','DiNpm','DiPostgresql','DiVisualstudio','SiMaterialui','SiTypescript','SiVercel']
     return (
     <IconContext.Provider  value={{className:'icons',size:'50%', color:'#374366'}}>
     <Box className={style.icons} name='tecno' id='tecno' sx={{ flexGrow: 1 }}>
         <Typography variant="h4" component="h1" gutterBottom className={style.taka}>
-            Tecnologías
+           {lang === 'es' ? 'Tecnologías' : 'Technologies'}
         </Typography>
       <Grid container spacing={{ xs: 2, md: 3 }} rowSpacing={2} columns={{ xs: 4, sm: 8, md: 10 }}>
         {icons.map((icon, index) => { 

@@ -56,7 +56,7 @@ export default function Proyects() {
         gutterBottom
         className={style.taka}
       >
-        Proyectos
+        Projects
       </Typography>
       <div className={style.caru}>
         <Carousel infiniteLoop autoPlay interval={3000}>

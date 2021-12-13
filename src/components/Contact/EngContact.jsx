@@ -4,7 +4,7 @@ import style from './Contact.module.css';
 export default function Contact(){
     return(
         <div className={style.div}>
-            <Typography name='contact' variant="h4" component="h1" gutterBottom className={style.taka}>Contacto</Typography>
+            <Typography name='contact' variant="h4" component="h1" gutterBottom className={style.taka}>Contact</Typography>
             <div className={style.cont}>
         <form className={style.form} action="https://formsubmit.co/juandedossi@yahoo.com" method="POST">
             <label>Name</label>
